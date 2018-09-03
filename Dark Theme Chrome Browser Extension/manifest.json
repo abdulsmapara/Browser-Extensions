@@ -1,0 +1,14 @@
+ {
+    "name": "Dark Theme Extension Getting Started",
+    "version": "1.0",
+    "description": "Building an Extension for dark theme!",
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
